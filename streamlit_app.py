@@ -1,6 +1,11 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("☕ Esta es mi nueva aplicación☕")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "un café"
 )
+st.header("Cabecera")
+cantidad=st.slider("Elija un valor:  ")
+for i in range(cantidad):
+    st.button(f'Botón {i}')
+
