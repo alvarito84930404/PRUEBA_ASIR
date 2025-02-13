@@ -5,7 +5,7 @@ st.write(
     "un café"
 )
 st.header("Cabecera")
-cantidad=st.slider("Elija un valor:  ")
+cantidad=st.slider("¿Cuántos cafés quieres?:  ")
 for i in range(cantidad):
-    st.button(f'Botón {i}')
+    st.button(f'{i} café')
 
